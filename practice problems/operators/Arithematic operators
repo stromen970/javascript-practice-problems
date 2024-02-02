@@ -1,1 +1,27 @@
-
+<!--Small practice on Arithmetic operators-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="yellow">
+    <script>
+        var x=10;
+        var y=2;
+        var a=x+y;
+        var b=x-y;
+        var c=x*y;
+        var d=x/y;
+        var e=x%y;
+        var f=x**y;
+        document.write('value of a is:'+a+'<br>')
+        document.write('value of b is:'+b+'<br>')
+        document.write('value of c is:'+c+'<br>')
+        document.write('value of d is:'+d+'<br>')
+        document.write('value of e is:'+e+'<br>')
+        document.write('value of f is:'+f+'<br>')
+    </script>
+</body>
+</html>
