@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        var y=10;
+        var z=(x>y)
+        document.write(z)
+    </script>
+</body>
+</html>
 
+Result:True
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=10;
+        var y=100;
+        var z=(x>y)
+        document.write(z)
+    </script>
+</body>
+</html>
+
+Result:False
