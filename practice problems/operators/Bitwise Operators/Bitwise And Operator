@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="yellow">
+    <script>
+        var x=100;
+        var y=200;
+        var z=300;
+        var a=(x<y & y<z)
+        document.write('The value of A is:'+a+'<br>')
+    </script>
+</body>
+</html>
+
+Result: The value of A is:1.(Here value of A is '1'. It means the given condition is True)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="yellow">
+    <script>
+        var x=100;
+        var y=200;
+        var z=300;
+        var a=(x<y & y>z)
+        document.write('The value of A is:'+a+'<br>')
+    </script>
+</body>
+</html>
+
+Result: The value of A is:0.(Here value of A is '0'. It means the given condition is False)
+
