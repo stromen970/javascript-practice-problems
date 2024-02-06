@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        if(x < 80){
+            document.write('This is if block')
+        }
+        else if(x > 150){
+            document.write('This is 1st else if block'+'<br>'+' Yes The value of x is:'+x+'<br>')
+        }
+        else if(x > 100){
+            document.write('This is 2nd else if block'+'<br>'+' Yes The value of x is:'+x+'<br>')
+        }
+        else if(x > 80){
+            document.write('This is 3rd else if block'+'<br>'+' Yes The value of x is:'+x+'<br>')
+        }
+        else{
+            document.write('This is else block')
+        }
+        
+    </script>
+</body>
+</html>
+
+Result:
+-------
+This is 3rd else if block.
+Yes The value of x is:100.
