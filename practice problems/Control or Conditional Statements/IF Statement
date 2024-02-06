@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        if(x > 90){
+            document.write('Yes The value of x is'+x+'<br>')
+        }
+        document.write('Hello')
+    </script>
+</body>
+</html>
+
+Result: 
+-------
+Yes The value of x is:100
+Hello
+
+Note: Here IF Statement is a conditional statement when the given condition is true at that time only it prints otherwise it terminates from that condition
+      and check the other condition
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        if(x < 90){
+            document.write('Yes The value of x is:'+x+'<br>')
+        }
+        document.write('Hello')
+    </script>
+</body>
+</html>
+
+Result:
+------
+Hello
