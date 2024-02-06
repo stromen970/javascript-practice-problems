@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        if(x > 70){
+            document.write('This is the response from IF Block'+'<br>')
+            document.write('Yes The value of x is:'+x+'<br>')
+        }
+        else{
+            document.write('This response from Else Block. Given value is more than yor value.')
+            
+        }
+        
+    </script>
+</body>
+</html>
+
+Result:
+-------
+This is the response from IF Block
+Yes The value of x is:100
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var x=100;
+        if(x < 70){
+            document.write('This is the response from IF Block'+'<br>')
+            document.write('Yes The value of x is:'+x+'<br>')
+        }
+        else{
+            document.write('This is the response from Else Block.'+'<br>')
+            document.write('Given value is more than your value.'+'<br>')
+            
+        }
+        
+    </script>
+</body>
+</html>
+
+Result:
+-------
+This is the response from Else Block.
+Given value is more than your value.
+
+
