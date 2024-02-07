@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var ch='B'
+        switch(ch)
+        {
+            case 'A':
+            document.write('sunday');
+            break;
+            case 'B':
+            document.write('Monday');
+            break;
+            case 'C':
+            document.write('Tuesday');
+            break;
+            case 'D':
+            document.write('wednsday');
+            break;
+            default :
+            document.write('Friday');
+            break;
+        }
+    </script>
+</body>
+</html>
+
+Result:
+-------
+Monday
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var ch='C'
+        switch(ch)
+        {
+            case 'A':
+            document.write('sunday');
+            break;
+            case 'B':
+            document.write('Monday');
+            break;
+            case 'C':
+            document.write('Tuesday');
+            break;
+            case 'D':
+            document.write('wednsday');
+            break;
+            default :
+            document.write('Friday');
+            break;
+        }
+    </script>
+</body>
+</html>
+
+Result:
+-------
+Tuesday
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var ch='P'
+        switch(ch)
+        {
+            case 'A':
+            document.write('sunday');
+            break;
+            case 'B':
+            document.write('Monday');
+            break;
+            case 'C':
+            document.write('Tuesday');
+            break;
+            case 'D':
+            document.write('wednsday');
+            break;
+            default :
+            document.write('Friday');
+            break;
+        }
+    </script>
+</body>
+</html>
+
+Result:
+------
+Friday
+
