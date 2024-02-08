@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script>
+        var i=1;
+        while(i<=5){
+            document.write('The value of i is:'+i+'<br>')
+            i++;
+        }
+    </script>
+</body>
+</html>
 
+
+Result:
+-------
+The value of i is:1
+The value of i is:2
+The value of i is:3
+The value of i is:4
+The value of i is:5
