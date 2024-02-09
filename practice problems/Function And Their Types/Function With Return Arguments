@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script type="text/javascript">
+        function display(i,j){
+            var k=i+j;
+            alert ('The value of k is'+k)
+        }
+    </script>
+    <h2>If you want k Value just click the submit button</h2>
+    <center><input type="button" value="submit" onclick="display(10,20)"/></center>
+</body>
+</html>
+
+
+Result:
+-------
+It gives the k value with pop-up or alert message
+
 
