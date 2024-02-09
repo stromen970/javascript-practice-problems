@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script type="text/javascript">
+        function display(){
+            alert('Welcome to ISM');
+        }
+    </script>
+    <h2>This is registration form</h2><hr>
+    Enter your FName:<input type="text"/><br><br>
+    Enter your Lname:<input type="text"/><br><br>
+    Enter your mobile number:<input type="text"/><br><br>
+
+    <center><input type="button" value="submit" onclick="display()"/></center>
+</body>
+</html>
+
+
+Result:
+-------
+1.The result will comes with application type with FName, LNmae, Mobile number
+2. After submit our details one pop-up is comes to the top on your system.
+
+
 
