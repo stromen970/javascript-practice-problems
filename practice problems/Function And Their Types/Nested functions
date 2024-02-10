@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script type="text/javascript">
+        function show(fname){
+            function display(){
+                alert('Hello:'+fname);
+            }
+            return display();
+        }
+        show('Prabhas')
+    </script>
+</body>
+</html>
+
+
+Result:
+-------
+Hello:Prabhas
+
+
 
