@@ -64,10 +64,33 @@ This is Inner if block.
 
 @3rd Type:
 ==========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <script type="text/javascript">
+        var i=600;
+        if(i<500){
+            if(i>400){
+                document.write('This is Inner if block.')
+            }
+            else{
+                document.write('This is Inner else block.')
+            }
+        }
+        else{
+            document.write('This is outer else block.')
+        }
+    </script>
+</body>
+</html>
 
-
-
-
-
+Result:
+-------
+This is outer else block.
 
 
